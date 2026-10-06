@@ -27,14 +27,7 @@
     // =======================================================================
     // ⭐️⭐️⭐️【 使用者設定區塊 】⭐️⭐️⭐️
     // =======================================================================
-   const firebaseConfig = {
-     apiKey: "AIzaSyACc1hEmcC7GR84_jvtYb2rG5bfErCenCc",
-     authDomain: "homeworktracker-32647.firebaseapp.com",
-     projectId: "homeworktracker-32647",
-     storageBucket: "homeworktracker-32647.firebasestorage.app",
-     messagingSenderId: "614728738497",
-     appId: "1:614728738497:web:222fcb82c471e7095b5640"
-   };
+   
     // =======================================================================
     // ⭐️⭐️⭐️【 設定區塊結束 】⭐️⭐️⭐️
     // =======================================================================
@@ -437,8 +430,7 @@
             const publicDataPayload = {
                 className: activeClassName,
                 students: students,
-                assignments: assignments,
-                lastUpdated: firebase.firestore.FieldValue.serverTimestamp()
+                <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore-compat.js"></script>    <script src="firebase-config.js"></script> firebase.firestore.FieldValue.serverTimestamp()
             };
 
             try {
